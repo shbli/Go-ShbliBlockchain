@@ -23,8 +23,8 @@ func NewBlockchain() *Blockchain {
 func TestCreateBlockChain() {
 	bc := NewBlockchain()
 
-	bc.AddBlock("Send 1 BTC to Ivan")
-	bc.AddBlock("Send 2 more BTC to Ivan")
+	bc.AddBlock("Send 1 ShbliCoin to Michael")
+	bc.AddBlock("Send 2 more ShbliCoin to Shbli")
 
 	for _, block := range bc.blocks {
 		fmt.Printf("Prev. hash: %x\n", block.PrevBlockHash)
