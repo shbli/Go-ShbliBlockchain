@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8998a507-27db-47fc-a9d6-c232424ef342" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Blockchain/ProofOfWork.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Utils/utils.go" />
-      <change beforePath="$PROJECT_DIR$/Blockchain/block.go" afterPath="$PROJECT_DIR$/Blockchain/block.go" />
-      <change beforePath="$PROJECT_DIR$/Blockchain/blockchain.go" afterPath="$PROJECT_DIR$/Blockchain/blockchain.go" />
+      <change beforePath="$PROJECT_DIR$/Blockchain/ProofOfWork.go" afterPath="$PROJECT_DIR$/Blockchain/proofofwork.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProofOfWork.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Blockchain/ProofOfWork.go">
+      <file leaf-file-name="proofofwork.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blockchain/proofofwork.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#20#144#0" expanded="true" />
               </folding>
@@ -277,10 +273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blockchain/ProofOfWork.go">
+    <entry file="file://$PROJECT_DIR$/Blockchain/proofofwork.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#20#144#0" expanded="true" />
           </folding>
