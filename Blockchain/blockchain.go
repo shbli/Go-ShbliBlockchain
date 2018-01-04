@@ -1,35 +1,129 @@
 package Blockchain
 
-import "fmt"
+import (
+	"github.com/boltdb/bolt"
+	"fmt"
+	"log"
+)
+
+const dbFile = "blockchain.db"
+const blocksBucket = "blocks"
 
 type Blockchain struct {
-	blocks []*Block
+	tip []byte
+	db  *bolt.DB
+}
+
+func (bc *Blockchain) CloseDB() {
+	defer bc.db.Close()
 }
 
 func (bc *Blockchain) AddBlock(data string) {
-	prevBlock := bc.blocks[len(bc.blocks)-1]
-	newBlock := NewBlock(data, prevBlock.Hash)
-	bc.blocks = append(bc.blocks, newBlock)
+	var lastHash []byte
+
+	bc.db.View(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(blocksBucket))
+		lastHash = b.Get([]byte("l"))
+
+		return nil
+	})
+
+	newBlock := NewBlock(data, lastHash)
+
+	 bc.db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(blocksBucket))
+		b.Put(newBlock.Hash, newBlock.Serialize())
+		b.Put([]byte("l"), newBlock.Hash)
+		bc.tip = newBlock.Hash
+
+		return nil
+	})
 }
 
 func NewGenesisBlock() *Block {
 	return NewBlock("Genesis Block", []byte{})
 }
 
+// NewBlockchain creates a new Blockchain with genesis Block
 func NewBlockchain() *Blockchain {
-	return &Blockchain{[]*Block{NewGenesisBlock()}}
+	var tip []byte
+	db, err := bolt.Open(dbFile, 0600, nil)
+	if err != nil {
+		log.Panic(err)
+	}
+
+	err = db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(blocksBucket))
+
+		if b == nil {
+			fmt.Println("No existing blockchain found. Creating a new one...")
+			genesis := NewGenesisBlock()
+
+			b, err := tx.CreateBucket([]byte(blocksBucket))
+			if err != nil {
+				log.Panic(err)
+			}
+
+			err = b.Put(genesis.Hash, genesis.Serialize())
+			if err != nil {
+				log.Panic(err)
+			}
+
+			err = b.Put([]byte("l"), genesis.Hash)
+			if err != nil {
+				log.Panic(err)
+			}
+			tip = genesis.Hash
+		} else {
+			tip = b.Get([]byte("l"))
+		}
+
+		return nil
+	})
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	bc := Blockchain{tip, db}
+
+	return &bc
 }
 
-func TestCreateBlockChain() {
-	bc := NewBlockchain()
+type BlockchainIterator struct {
+	currentHash []byte
+	db          *bolt.DB
+}
 
-	bc.AddBlock("Send 1 ShbliCoin to Michael")
-	bc.AddBlock("Send 2 more ShbliCoin to Shbli")
+// Iterator ...
+func (bc *Blockchain) Iterator() *BlockchainIterator {
+	bci := &BlockchainIterator{bc.tip, bc.db}
 
-	for _, block := range bc.blocks {
-		fmt.Printf("Prev. hash: %x\n", block.PrevBlockHash)
-		fmt.Printf("Data: %s\n", block.Data)
-		fmt.Printf("Hash: %x\n", block.Hash)
-		fmt.Println()
+	return bci
+}
+
+// Next returns next block starting from the tip
+func (i *BlockchainIterator) Next() *Block {
+	var block *Block
+
+	err := i.db.View(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(blocksBucket))
+		encodedBlock := b.Get(i.currentHash)
+		block = DeserializeBlock(encodedBlock)
+
+		return nil
+	})
+
+	if err != nil {
+		log.Panic(err)
 	}
+
+	if block == nil {
+		log.Panic("Block is nil")
+	}
+
+
+	i.currentHash = block.PrevBlockHash
+
+	return block
 }
