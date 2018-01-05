@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8998a507-27db-47fc-a9d6-c232424ef342" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/CLI/cli.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Blockchain/transaction.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Blockchain/block.go" afterPath="$PROJECT_DIR$/Blockchain/block.go" />
       <change beforePath="$PROJECT_DIR$/Blockchain/blockchain.go" afterPath="$PROJECT_DIR$/Blockchain/blockchain.go" />
       <change beforePath="$PROJECT_DIR$/Blockchain/proofofwork.go" afterPath="$PROJECT_DIR$/Blockchain/proofofwork.go" />
+      <change beforePath="$PROJECT_DIR$/CLI/cli.go" afterPath="$PROJECT_DIR$/CLI/cli.go" />
       <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,13 +19,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <element signature="e#14#137#0" expanded="true" />
+                <element signature="e#14#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,8 +34,8 @@
       <file leaf-file-name="proofofwork.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blockchain/proofofwork.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            <state relative-caret-position="600">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding>
                 <element signature="e#20#138#0" expanded="true" />
               </folding>
@@ -57,10 +58,10 @@
       <file leaf-file-name="blockchain.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blockchain/blockchain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding>
-                <element signature="e#20#70#0" expanded="true" />
+                <element signature="e#20#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,10 +70,10 @@
       <file leaf-file-name="cli.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CLI/cli.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="-1512">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <element signature="e#13#122#0" expanded="true" />
+                <element signature="e#13#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,10 +82,22 @@
       <file leaf-file-name="block.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blockchain/block.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+            <state relative-caret-position="900">
+              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding>
-                <element signature="e#20#91#0" expanded="true" />
+                <element signature="e#20#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blockchain/transaction.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="77" column="57" lean-forward="false" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+              <folding>
+                <element signature="e#20#102#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,6 +115,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>0000005b3d6eb47da7cbae35fa116f2394b88b3dd5898b35a6d98c056905c97f</find>
+      <find>Transactions.</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -114,12 +128,14 @@
         <option value="$PROJECT_DIR$/utils.go" />
         <option value="$PROJECT_DIR$/ProofOfWork/ProofOfWork.go" />
         <option value="$PROJECT_DIR$/Blockchain/ProofOfWork.go" />
-        <option value="$PROJECT_DIR$/Blockchain/proofofwork.go" />
-        <option value="$PROJECT_DIR$/Blockchain/block.go" />
         <option value="$PROJECT_DIR$/cli.go" />
-        <option value="$PROJECT_DIR$/CLI/cli.go" />
-        <option value="$PROJECT_DIR$/Blockchain/blockchain.go" />
+        <option value="$PROJECT_DIR$/Blockchain/proofofwork.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/Transactions/transaction.go" />
+        <option value="$PROJECT_DIR$/Blockchain/block.go" />
+        <option value="$PROJECT_DIR$/Blockchain/blockchain.go" />
+        <option value="$PROJECT_DIR$/CLI/cli.go" />
+        <option value="$PROJECT_DIR$/Blockchain/transaction.go" />
       </list>
     </option>
   </component>
@@ -131,9 +147,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
-    <option name="y" value="327" />
+    <option name="y" value="62" />
     <option name="width" value="1916" />
-    <option name="height" value="873" />
+    <option name="height" value="1138" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -150,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +192,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -187,8 +203,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/CLI" />
       <recent name="$PROJECT_DIR$/Blockchain" />
+      <recent name="$PROJECT_DIR$/CLI" />
       <recent name="$PROJECT_DIR$/Utils" />
     </key>
   </component>
@@ -226,14 +242,15 @@
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1178" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26307365" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26574174" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40471697" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4716981" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -241,7 +258,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -260,10 +276,70 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain/proofofwork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+          <folding>
+            <element signature="e#20#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLI/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#13#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -283,7 +359,7 @@
         <state relative-caret-position="1665">
           <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#20#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -293,7 +369,7 @@
         <state relative-caret-position="330">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
-            <element signature="e#13#122#0" expanded="true" />
+            <element signature="e#13#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -303,7 +379,7 @@
         <state relative-caret-position="675">
           <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -313,7 +389,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -343,7 +419,7 @@
         <state relative-caret-position="1665">
           <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#20#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -353,7 +429,7 @@
         <state relative-caret-position="315">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#13#122#0" expanded="true" />
+            <element signature="e#13#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,7 +439,7 @@
         <state relative-caret-position="675">
           <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -373,7 +449,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,7 +479,7 @@
         <state relative-caret-position="195">
           <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#20#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,7 +489,7 @@
         <state relative-caret-position="75">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#13#122#0" expanded="true" />
+            <element signature="e#13#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,7 +499,7 @@
         <state relative-caret-position="675">
           <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -433,7 +509,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -463,7 +539,7 @@
         <state relative-caret-position="540">
           <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#20#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,7 +549,7 @@
         <state relative-caret-position="720">
           <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,7 +559,7 @@
         <state relative-caret-position="90">
           <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,7 +579,7 @@
         <state relative-caret-position="495">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#20#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -513,7 +589,7 @@
         <state relative-caret-position="315">
           <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
           <folding>
-            <element signature="e#20#91#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blockchain/block.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-          <folding>
-            <element signature="e#20#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utils/utils.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -548,42 +614,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CLI/cli.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#13#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blockchain/proofofwork.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        <state relative-caret-position="600">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding>
             <element signature="e#20#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blockchain/blockchain.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <element signature="e#20#70#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/Blockchain/block.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="900">
+          <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding>
-            <element signature="e#14#137#0" expanded="true" />
+            <element signature="e#20#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain/blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="e#20#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLI/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blockchain/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="77" column="57" lean-forward="false" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+          <folding>
+            <element signature="e#20#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
